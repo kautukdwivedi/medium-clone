@@ -1,0 +1,36 @@
+.item-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item-card-image{
+    width:20%;
+    max-height:150;
+}
+.item-card{
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: rgb(211, 203, 203);
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+}
+
+.item-card span{
+    font-weight: 700;
+}
+
+NavLink{
+    text-decoration: none !important;
+}
+
+NavLink:hover {
+    color:#00A0C6; 
+    text-decoration: none !important; 
+    cursor:pointer;  
+}
