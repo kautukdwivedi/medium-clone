@@ -18,7 +18,7 @@ export default function Search() {
     const search = async () =>{
         if(val === '') return;
         setLoader(true)
-        const response = await axios.get('https://cors-resolve.herokuapp.com/https://medium-scrapper-api.herokuapp.com/data/' + val)
+        const response = await axios.get('https://cors-resolve.herokuapp.com/https://medium-scrapper-api.herokuapp.com/data/' + val.toLowerCase())
         setsearchData(response.data);
         setLoader(false)
     }
